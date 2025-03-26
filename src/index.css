@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Barriecito&family=Birthstone&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Cherry+Bomb+One&family=Fredoka&family=Freeman&family=Gaegu&family=Hi+Melody&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@600&family=Ranchers&family=Square+Peg&family=WindSong:wght@400;500&display=swap");
+@import "tailwindcss";
+
+/* Birthstone */
+
+@font-face {
+  font-family: "MoonTime";
+  font-size: normal;
+  src: url(global/MoonTime-Regular.otf);
+}
+@theme {
+  --font-moon: "MoonTime", "sans-serif";
+  --font-inter: "Inter", "sans-serif";
+}
+
+:root {
+    --font-inter: "Inter", sans-serif;
+}
