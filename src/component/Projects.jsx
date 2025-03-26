@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom';
+
+// components
 import Cafe from "../assets/cafe.png";
 import Book from "../assets/book.png";
 import Valentines from "../assets/valentines.png";
-import Poster from "../assets/poster.png";
+import MotionPoster from "../assets/poster.png";
 
 export default function Projects() {
     return(
@@ -60,7 +63,10 @@ export default function Projects() {
                         <button className="bg-[#C5CEF3] w-32 h-8 rounded-2xl font-bold text-[#7487D5]">Read more</button>
                     </div>
                 </div>
-                <img src={Poster} alt="few screenshot of the coffee shop app" className="w-116"></img>
+                <Link to='/Project/Poster'>
+                    <img src={MotionPoster} alt="few screenshot of the coffee shop app" className="w-116"></img>
+                </Link>
+                
             </div>
 
         </div>

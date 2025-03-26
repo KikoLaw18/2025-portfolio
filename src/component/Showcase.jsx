@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import Cafe from "../assets/cafe.png";
 import Book from "../assets/book.png";
+// import Uxui from "../pages/Uxui.jsx";
 
 export default function Showcase() {
     return(
@@ -23,7 +25,9 @@ export default function Showcase() {
                     <br />
                     <p>This project focuses on designing the graphics for a children storybook by using illustrator to create the graphic design and i made a short story for this book with my friend’s birthday experience.</p>
                 </div>
-                <img src={Book} alt="few screenshot of the coffee shop app" className="w-116"></img>
+                <Link to="../pages/Uxui.jsx"> 
+                    <img src={Book} alt="few screenshot of the coffee shop app" className="w-116" />
+                </Link>
             </div>
         </div>
     )
