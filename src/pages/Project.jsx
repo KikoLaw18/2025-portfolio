@@ -1,6 +1,6 @@
 import Footer from "../component/Footer";
 import Header from "../component/Header";
-import Projects from "../component/Projects";
+import { Projects } from "../component/Projects";
 
 function Project() {
     return(

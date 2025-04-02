@@ -6,7 +6,7 @@ function Uxui() {
         <>
             <Header/>
             <main>
-
+                
             </main>
             
             <Footer />
