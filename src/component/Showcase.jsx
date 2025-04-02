@@ -17,13 +17,16 @@ export default function Showcase() {
                 body: `This project is redesigning an app called the Grounds for Coffee. In this project im going to make it ease to use by fixing navigation problems, redesigning layouts, and improving the user experience.`
                 }}
                 imageIndex={0}
+                buttonText="Read more"
+                buttonLink="/Project/Uxui"
+                buttonColor="pink"
+                reverseOrder={false}
                 />  
             </div>
              
             
             <div className='pt-12 pb-16'>
                 <Hero
-            imageIndex={1}
             headerText="Creative Showcase"
             descriptionText={{
             title: "Children's Storybook",
@@ -32,6 +35,11 @@ export default function Showcase() {
                 storybook using Illustrator. I also created a short story for the book
                 based on a friend's birthday experience.`
             }}
+            buttonText="Read more"
+            buttonLink="/Project/Uxui"
+            buttonColor="blue"
+            reverseOrder={true}
+            imageIndex={1}
             /> 
             </div>
               

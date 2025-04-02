@@ -19,7 +19,7 @@ function Footer() {
                     <li>Ad poster</li>
                 </ul>
             </div>
-            <div>
+            {/* <div>
                 <h3 className="font-black pb-4">About</h3>
                 <ul>
                     <li>Value</li>
@@ -27,7 +27,7 @@ function Footer() {
                     <li>Skills</li>
                     <li>Resume</li>
                 </ul>
-            </div>
+            </div> */}
             <div className="">
                 <h3 className="font-black text-center pb-4">Contact</h3>
                 <div className="flex gap-8">

@@ -51,12 +51,16 @@ const Hero = ({
           </div>
         </>
       ) : (
-
+        
         // Default order (image first, text second)
         <>
           {/* Image section */}
           <div className="w-full md:w-1/2 sm:w-100 flex justify-center">
-  
+            <img
+              src={imageSources[imageIndex]}
+              alt="Project Image"
+              className="lg:w-150 md:w-150 sm:w-200"
+            />
           </div>
 
           {/* Text content section */}
