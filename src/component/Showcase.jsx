@@ -7,8 +7,23 @@ export default function Showcase() {
         <>
         
         <div className='bg-[#FFFAF0]'>
-            <h2 className='font-black font-inter text-center text-2xl pt-12'>Creative Showcase</h2>
-            <Hero
+            <h2 className='font-black font-inter text-center text-2xl py-12'>Creative Showcase</h2>
+            <div>
+               <Hero
+                headerText="Creative Showcase"
+                descriptionText={{
+                title: "UX/UI",
+                subtitle: "Case study & Redesign",
+                body: `This project is redesigning an app called the Grounds for Coffee. In this project im going to make it ease to use by fixing navigation problems, redesigning layouts, and improving the user experience.`
+                }}
+                imageIndex={0}
+                />  
+            </div>
+             
+            
+            <div className='pt-12 pb-16'>
+                <Hero
+            imageIndex={1}
             headerText="Creative Showcase"
             descriptionText={{
             title: "Children's Storybook",
@@ -17,9 +32,10 @@ export default function Showcase() {
                 storybook using Illustrator. I also created a short story for the book
                 based on a friend's birthday experience.`
             }}
-            />   
+            /> 
+            </div>
+              
         </div>
-        
         </>
     )
 }

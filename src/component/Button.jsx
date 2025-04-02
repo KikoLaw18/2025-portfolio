@@ -30,20 +30,20 @@ const Button = ({ size, color, onClick, children }) => {
 
   let colorStyles = "";
   if (color === "yellow") {
-    colorStyles = "bg-[#FFF6E3] text-[#FFAA2B] font-bold hover:brightness-120 cursor-pointer";
+    colorStyles = "bg-[#FFF6E3] text-[#FFAA2B] font-bold hover:bg-[#FFDD95] cursor-pointer";
   } else if (color === "blue") {
-    colorStyles = "bg-[#D7EDFA] text-[#73B5D8] font-bold hover:brightness-120 cursor-pointer";
+    colorStyles = "bg-[#D7EDFA] text-[#73B5D8] font-bold hover:brightness-20 cursor-pointer";
   } else if (color === "pink") {
-    colorStyles = "bg-[#FFE7E3] text-[#FF7262] font-bold hover:brightness-120 cursor-pointer";
+    colorStyles = "bg-[#FFE7E3] text-[#FF7262] font-bold hover:brightness-20 cursor-pointer";
   } else if (color === "purple") {
-    colorStyles = "bg-[#C5CEF3] text-[#7487D5] hover:brightness-120 cursor-pointer";
+    colorStyles = "bg-[#C5CEF3] text-[#7487D5] font-bold hover:brightness-20 cursor-pointer";
   }
 
   const buttonStyles = `${baseStyles} ${sizeStyles} ${colorStyles}`;
 
   return (
     <button className={buttonStyles} onClick={onClick}>
-      {children} {/* Render the children content */}
+      {children}
     </button>
   );
 };
