@@ -25,7 +25,7 @@ export default function Showcase() {
             </div>
              
             
-            <div className='pt-12 pb-16'>
+            <div className='pt-12 pb-16 sm:flex-col-reverse'>
                 <Hero
             headerText="Creative Showcase"
             descriptionText={{
