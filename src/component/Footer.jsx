@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+// assets
 import Logo from "../assets/personal-logo.png";
 import Email from '../assets/gmail.svg';
 import Linkedin from '../assets/linkdein.svg';
